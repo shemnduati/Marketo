@@ -9,14 +9,13 @@ function App() {
 
   return (
     <>
-    <div>
+    <main>
       <Navbar />
       <Hero />
       <Companies />
       <About />
       <Starategy />
-
-    </div>
+    </main>
     </>
   )
 }
