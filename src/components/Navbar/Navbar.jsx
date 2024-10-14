@@ -6,7 +6,7 @@ import { FaTwitter } from 'react-icons/fa6';
 const Navbar = () => {
   return (
     <header>
-      <div className='flex justify-between items-center p-5 w-full'>
+      <div className='flex justify-between items-center p-5 w-full bg-red-50'>
         <div className='flex-shrink-0'>
           <img src={ Logo } alt='' />
         </div>

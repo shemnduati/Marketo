@@ -5,14 +5,14 @@ import Img from "../../assets/hero.png";
 const Hero = () => {
   return (
     <section>
-      <div className="grid grid-cols-1 md:grid-cols-2 gap-6 min-h-[650px]" 
+      <div className="grid grid-cols-1 md:grid-cols-2 gap-6 min-h-[650px] bg-red-50" 
         style={{ backgroundImage: `url('../../assets/logos/bg.jpg')` }}
       >
         {/* Text Area */}
-        <div className="flex flex-col justify-center items-center">
-          <h1 className="text-8xl font-bold">Bussiness</h1>
-          <h1 className="text-8xl font-bold">Planning</h1>
-          <p className="text-gray-800 mt-6 gap-3">
+        <div className="flex flex-col justify-center items-center ">
+          <h1 className="text-8xl font-bold items-center">Business </h1>
+          <h1 className="text-8xl font-bold items-center">Planning</h1>
+          <p className="text-gray-800 mt-6 text-xl  items-center">
             We do our best to implement your ideas into the <br></br> project to make it
             successful & profitable.
           </p>
