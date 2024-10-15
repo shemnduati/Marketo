@@ -16,7 +16,7 @@ const Hero = () => {
             We do our best to implement your ideas into the <br></br> project to make it
             successful & profitable.
           </p>
-          <div className="mt-6 gap-6">
+          <div className="mt-6 space-x-4">
             <button className="text-white bg-black px-6 py-4 mt-4 font-bold rounded-md shadow-sm">
               Discover Crafto
               </button>
