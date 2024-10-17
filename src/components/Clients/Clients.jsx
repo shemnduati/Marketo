@@ -3,7 +3,7 @@ import { ArrowUpIcon } from '@heroicons/react/20/solid';
 
 const Clients = () => {
   return (
-    <section className='py-8'>
+    <section className='pb-20'>
         <div className='flex gap-36  items-center justify-center'>
             <div className='flex'>
                 <ArrowUpIcon className="size-7 fill-green-600" />
