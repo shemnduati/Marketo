@@ -5,8 +5,8 @@ import { HandThumbUpIcon, PhoneArrowUpRightIcon,  } from '@heroicons/react/20/so
 const Footer = () => {
   return (
    <section className='bg-black'>
-     <div className='container items-center justify-center  flex  pt-24 pb-16 gap-32'>
-      <div className='flex '>
+     <div className='container items-center justify-center  flex   pt-16 pb-16 gap-16'>
+      <div className='flex flex-col'>
       <img src={logo} className='shrink-0 w-auto h-auto' alt="logo" />
       </div>
       <div className='flex flex-col'>
@@ -35,6 +35,21 @@ const Footer = () => {
           <HandThumbUpIcon className="size-5 text-white" />
           <p className='text-gray-400'>Protecting your privacy</p>
         </div>
+      </div>
+      <div className='flex flex-col'>
+      <hr className='text-gray-400' />
+      <div>
+        <ul>
+          <li>Home</li>
+          <li>About</li>
+          <li>Services</li>
+          <li>Case studies</li>
+          <li>Pricing</li>
+          <li>Team</li>
+          <li>Contact</li>
+        </ul>
+        <h4>2024 Crafto is Powered by <span><u>ThemeZaa</u></span></h4>
+      </div>
       </div>
      </div>
    </section>
